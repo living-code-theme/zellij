@@ -1,0 +1,48 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "zellij",
+  "slug": "zellij",
+  "group": "CLI & TUI",
+  "emoji": "🧱",
+  "description": "Living Code for zellij. Repository-owned theme files, installation instructions and four color flavors.",
+  "homepage": "https://zellij.dev",
+  "quick": "See installation instructions",
+  "aliases": [
+    "zellij"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "living-code-frost.kdl",
+    "living-code-night.kdl",
+    "living-code-paper.kdl",
+    "living-code-signal.kdl"
+  ],
+  "images": [
+    {
+      "flavor": "night",
+      "path": "images/night.png",
+      "alt": "zellij running Living Code Night"
+    },
+    {
+      "flavor": "frost",
+      "path": "images/frost.png",
+      "alt": "zellij running Living Code Frost"
+    },
+    {
+      "flavor": "paper",
+      "path": "images/paper.png",
+      "alt": "zellij running Living Code Paper"
+    },
+    {
+      "flavor": "signal",
+      "path": "images/signal.png",
+      "alt": "zellij running Living Code Signal"
+    }
+  ]
+}
